@@ -1,0 +1,49 @@
+@charset "utf-8";
+html{
+    font-family: 'Dosis', "メイリオ", 'Meiryo', sans-serif;
+    scroll-behavior: smooth;
+}
+ul,li{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 15px 0;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+header ul{
+    padding: 0 20px;
+}
+header li{
+    display: inline-block;
+    padding: 0 20px;
+}
+header a{
+    font-size: 20px;
+}
+header a:link{
+    color: #3b3b3b;
+}
+header a:hover{
+    color: #E89FF7;
+}
+header a:visited{
+    color: #adadad;
+}
+.mainimg{
+    height: 100vh;
+    background-image: url(images/back.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
