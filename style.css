@@ -41,6 +41,9 @@ header a:link{
 header a:hover{
     color: #E89FF7;
 }
+header .fa-bars{
+    display: none;
+}
 .mainimg{
     position: relative;
     height: 100vh;
@@ -91,7 +94,7 @@ header a:hover{
 }
 .prof-p{
     height: 50%;
-    background-color:black;
+    background-image:url(images/prof.jpg);
     border-radius: 50%;
 }
 .prof-t{
@@ -180,6 +183,9 @@ header a:hover{
     margin: 0 3% 2% 0;
     width: 30%;
 }
+.work:first-child{
+    margin-left: 3%;
+}
 .work-img{
     width: 100%;
     padding-top: 100%;
@@ -232,4 +238,14 @@ footer p{
     color: white;
     text-align: center;
     font-size: 0.5rem;
+}
+
+@media screen and (max-width:480px) { 
+    /*　画面サイズが480pxからはここを読み込む　*/
+    header .fa-bars{
+        display: block;
+    }
+    header ul{
+        display: none;
+    }
 }
