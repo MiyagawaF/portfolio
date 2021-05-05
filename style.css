@@ -125,7 +125,6 @@ header .fa-bars{
     padding: 15%;
 }
 .prof-text p{
-    font-size: 0.8rem;
 }
 
 .skill{
@@ -192,8 +191,17 @@ header .fa-bars{
 .work-img{
     width: 100%;
     padding-top: 100%;
-    background-color: powderblue;
+    background-size: contain;
     margin-bottom: 0.8rem;
+}
+.w1{
+    background-image: url("images/work1.jpg");
+}
+.w2{
+    background-image: url("images/work2.jpg");
+}
+.w3{
+    background-image: url("images/work3.jpg");
 }
 .workname{
     font-size: 1.1rem;
@@ -201,7 +209,9 @@ header .fa-bars{
 .work p{
     text-align: center;
 }
-
+.work a{
+    text-decoration: none;
+}
 .contact{
     background-color: #7883EE;
     color: white;
