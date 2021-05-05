@@ -375,5 +375,6 @@ footer p{
         width: 100%;
         padding: 0;
         height: 15rem;
+        background-size: cover;
     }
 }
